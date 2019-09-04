@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65f45667-4b5f-4e8d-a12c-42e452e8eeb4" name="Default Changelist" comment="" />
+    <list default="true" id="65f45667-4b5f-4e8d-a12c-42e452e8eeb4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +20,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
@@ -117,6 +120,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+=======
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="50">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+>>>>>>> b4e57366dcb7a3f7a38951e7c3ff4b6bbfcf0368
             </state>
           </provider>
         </entry>
@@ -142,6 +154,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/sign-in.xhtml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/signIn.xhtml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/chechIn.xhtml" />
@@ -168,6 +181,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/practice/summer/web/LogInServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/practice/summer/web/SignInServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/practice/summer/model/user/ArrayListUserDao.java" />
+=======
+        <option value="$PROJECT_DIR$/README.md" />
+>>>>>>> b4e57366dcb7a3f7a38951e7c3ff4b6bbfcf0368
       </list>
     </option>
   </component>
@@ -189,6 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +214,7 @@
               <item name="game-for-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="game-for-practice" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="game-for-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="game-for-practice" type="462c0819:PsiDirectoryNode" />
@@ -287,12 +306,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> b4e57366dcb7a3f7a38951e7c3ff4b6bbfcf0368
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,6 +458,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="29331000" />
   </component>
   <component name="TodoView">
@@ -454,6 +474,15 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
+=======
+    <option name="totallyTimeSpent" value="161000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+>>>>>>> b4e57366dcb7a3f7a38951e7c3ff4b6bbfcf0368
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -470,6 +499,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32936078" />
@@ -477,6 +507,14 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+>>>>>>> b4e57366dcb7a3f7a38951e7c3ff4b6bbfcf0368
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -558,6 +596,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/checkstyle-idea.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/sign-in.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/signIn.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/chechIn.xhtml" />
@@ -568,10 +607,19 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+>>>>>>> b4e57366dcb7a3f7a38951e7c3ff4b6bbfcf0368
           <second_editor />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/sd.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/master.tld" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/as.tld" />
@@ -724,6 +772,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> b4e57366dcb7a3f7a38951e7c3ff4b6bbfcf0368
   </component>
   <component name="masterDetails">
     <states>
