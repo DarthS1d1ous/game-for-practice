@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ExpertSoft/Новая папка/phoneshop-servlet-api" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Летняя практика/game-for-practice" vcs="Git" />
   </component>
 </project>
