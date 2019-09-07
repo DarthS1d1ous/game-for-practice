@@ -6,5 +6,6 @@ header {
 }
 
 .error {
-    color: red;
+    color: blue;
+    font-size: 38px;
 }

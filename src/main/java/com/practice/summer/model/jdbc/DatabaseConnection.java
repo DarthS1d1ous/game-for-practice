@@ -8,10 +8,9 @@ import java.util.ResourceBundle;
 public class DatabaseConnection {
     private static DatabaseConnection instance;
     private Connection connection;
-    private ResourceBundle resource = ResourceBundle.getBundle("database");
-    private String url = resource.getString("db.url");
-    private String user = resource.getString("db.user");
-    private String password = resource.getString("db.password");
+    private String url = "jdbc:postgresql://localhost:8080/test";
+    private String user = "postgres";
+    private String password = "123denis123";
 
     private DatabaseConnection() throws SQLException {
         this.connection = DriverManager.getConnection(url, user, password);

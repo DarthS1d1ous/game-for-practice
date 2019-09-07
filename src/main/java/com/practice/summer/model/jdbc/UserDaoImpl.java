@@ -11,10 +11,18 @@ import java.util.Optional;
 public class UserDaoImpl implements UserDao {
     private final String SQL_QUERY_ADD_USER = "INSERT INTO users (login, password) VALUES(?,?)";
     private final String SQL_QUERY_GET_USER = "SELECT id, login, password FROM users " +
-            "WHERE login = ? and password = ?";
+            "WHERE login = ?";
 
     public UserDaoImpl() {
 
+    }
+
+    public static UserDaoImpl getInstance() {
+        return SingletonHolder.instance;
+    }
+
+    public static class SingletonHolder {
+        private static final UserDaoImpl instance = new UserDaoImpl();
     }
 
     @Override
@@ -45,7 +53,7 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public Optional<User> signIn(String login, String password) {
+    public Optional<User> signIn(String login) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
@@ -53,9 +61,8 @@ public class UserDaoImpl implements UserDao {
             connection = DatabaseConnection.getInstance().getConnection();
             preparedStatement = connection.prepareStatement(SQL_QUERY_GET_USER);
             preparedStatement.setString(1, login);
-            preparedStatement.setString(2, password);
             resultSet = preparedStatement.executeQuery();
-            return Optional.of(initUser(resultSet));
+            return initUser(resultSet);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         } finally {
@@ -71,13 +78,14 @@ public class UserDaoImpl implements UserDao {
         return Optional.empty();
     }
 
-    private User initUser(ResultSet resultSet) throws SQLException {
-        User user = new User();
-        while (resultSet.next()) {
+    private Optional<User> initUser(ResultSet resultSet) throws SQLException {
+        User user = null;
+        if(resultSet.next()){
+            user = new User();
             user.setId(resultSet.getInt("Id"));
             user.setLogin(resultSet.getString("Login"));
             user.setPassword(resultSet.getString("Password"));
         }
-        return user;
+        return Optional.ofNullable(user);
     }
 }

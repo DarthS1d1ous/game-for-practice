@@ -8,13 +8,13 @@
 </head>
 <tags:master pageTitle="Game">
     <div id="login">
-        <form method="get">
+        <form method="post">
             <fieldset>
-                <p><span class="fontawesome-user"></span><input type="text" name="login" value="Логин" onBlur="if(this.value == '') this.value = 'Логин'" onFocus="if(this.value == 'Логин') this.value = ''" required></p>
-                <p><span class="fontawesome-lock"></span><input type="password" name="password" value="Пароль" onBlur="if(this.value == '') this.value = 'Пароль'" onFocus="if(this.value == 'Пароль') this.value = ''" required></p>
+                <p><span class="fontawesome-user"></span><input type="text" name="login" value="Логин" required></p>
+                <p><span class="fontawesome-lock"></span><input type="password" name="password" value="Пароль" required></p>
                 <p><input type="submit" value="Войти"/></p>
                 <c:if test="${not empty error}">
-                    <p class="error">${error}</p>
+                    <p class="error">${error}</p><br>
                 </c:if>
             </fieldset>
         </form>

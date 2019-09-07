@@ -10,9 +10,9 @@
     <div id="login">
         <form method="post">
             <fieldset>
-                <p><span class="fontawesome-user"></span><input type="text" name="login" value="Логин" onBlur="if(this.value == '') this.value = 'Логин'" onFocus="if(this.value == 'Логин') this.value = ''" required></p>
-                <p><span class="fontawesome-lock"></span><input type="password" name="password1" value="Пароль" onBlur="if(this.value == '') this.value = 'Пароль'" onFocus="if(this.value == 'Пароль') this.value = ''" required></p>
-                <p><span class="fontawesome-lock"></span><input type="password" name="password2" value="Пароль" onBlur="if(this.value == '') this.value = 'Пароль ещё раз'" onFocus="if(this.value == 'Пароль ещё раз') this.value = ''" required></p>
+                <p><span class="fontawesome-user"></span><input type="text" name="login" value="Логин" required></p>
+                <p><span class="fontawesome-lock"></span><input type="password" name="password1" value="Пароль" required></p>
+                <p><span class="fontawesome-lock"></span><input type="password" name="password2" value="Пароль" required></p>
                 <p><input value="Зарегистрироваться" type="submit"/></p>
                 <c:if test="${not empty error}">
                     <p class="error">${error}</p>
